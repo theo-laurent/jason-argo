@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/theo-laurent/jason-argo/static/css/main.3092584b.chunk.css",
+    "main.js": "/theo-laurent/jason-argo/static/js/main.55220d0a.chunk.js",
+    "main.js.map": "/theo-laurent/jason-argo/static/js/main.55220d0a.chunk.js.map",
+    "runtime-main.js": "/theo-laurent/jason-argo/static/js/runtime-main.099e3d65.js",
+    "runtime-main.js.map": "/theo-laurent/jason-argo/static/js/runtime-main.099e3d65.js.map",
+    "static/js/2.cd7cf8d4.chunk.js": "/theo-laurent/jason-argo/static/js/2.cd7cf8d4.chunk.js",
+    "static/js/2.cd7cf8d4.chunk.js.map": "/theo-laurent/jason-argo/static/js/2.cd7cf8d4.chunk.js.map",
+    "index.html": "/theo-laurent/jason-argo/index.html",
+    "static/css/main.3092584b.chunk.css.map": "/theo-laurent/jason-argo/static/css/main.3092584b.chunk.css.map",
+    "static/js/2.cd7cf8d4.chunk.js.LICENSE.txt": "/theo-laurent/jason-argo/static/js/2.cd7cf8d4.chunk.js.LICENSE.txt",
+    "static/media/logo.a5bae171.png": "/theo-laurent/jason-argo/static/media/logo.a5bae171.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.099e3d65.js",
+    "static/js/2.cd7cf8d4.chunk.js",
+    "static/css/main.3092584b.chunk.css",
+    "static/js/main.55220d0a.chunk.js"
+  ]
+}
