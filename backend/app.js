@@ -1,3 +1,4 @@
+require("dotenv").config();
 //const
 const express = require("express");
 const mongoose = require("mongoose");
@@ -9,10 +10,7 @@ const argonautsRoutes = require("./routes/argonautes");
 
 //connection mongoDb
 mongoose
-  .connect(
-    "mongodb+srv://adminArgo:fraise25@cluster1.d7epn.mongodb.net/Argo-Jason?retryWrites=true&w=majority",
-    { useNewUrlParser: true, useUnifiedTopology: true }
-  )
+  .connect(process.env.DB, { useNewUrlParser: true, useUnifiedTopology: true })
   .then(function () {
     console.log("Connexion à MongoDb réussie!");
   })
