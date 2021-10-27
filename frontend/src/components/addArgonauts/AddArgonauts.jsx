@@ -1,7 +1,7 @@
 import "./addArgonauts.css";
 import { useState } from "react";
 
-export default function AddArgonauts() {
+export default function AddArgonauts(props) {
   const [argonaut, setArgonaut] = useState("");
 
   const submit = function (e) {
@@ -9,11 +9,22 @@ export default function AddArgonauts() {
 
     fetch("http://localhost:4200/api/argo/", {
       method: "POST",
-      headers: { 
-        "Content-Type": "application/json", 
+      headers: {
+        "Content-Type": "application/json",
       },
       body: JSON.stringify({ nom: argonaut }),
-    });
+    })
+      .then(function (res) {
+        return res.json();
+      })
+      .then(function () {
+        props.setRefresh(!props.refresh);
+        setArgonaut("");
+      })
+      .catch(function (error) {
+        console.log(error);
+        alert("L'Argonaute n'a pas pu embarquer !");
+      });
   };
 
   return (

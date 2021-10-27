@@ -1,3 +1,35 @@
 .getArgonautsContainer {
-  min-height: 200px;
+  max-width: 700px;
+  margin: auto;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
+.getArgonautsContainer__liste {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+  margin-top: 50px;
+}
+
+.getArgonautsContainer__card {
+  display: grid;
+  grid-template-columns: 80% 20%;
+  align-items: center;
+  background-color: #f4f4f4;
+  color: #f76c6c;
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 5px;
+  min-width: 150px;
+  border: solid 1px #f76c6c;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.getArgonautsContainer__card__delete:hover {
+  cursor: pointer;
+  color: black;
 }
