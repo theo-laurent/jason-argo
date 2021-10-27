@@ -2,7 +2,7 @@
   "name": "jason-argo",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/theo-laurent/jason-argo",
+  "homepage": "https://theo-laurent.github.io/jason-argo",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
