@@ -1,0 +1,13 @@
+.bannerTopContainer {
+  height: 100px;
+  background-color: #f4f4f4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bannerTopContainer img {
+  width: 100px;
+  height: auto;
+  padding-right: 5px;
+}

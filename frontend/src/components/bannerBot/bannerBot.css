@@ -1,0 +1,8 @@
+.bannerBotContainer {
+  height: 60px;
+  background-color: #f76c6c;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
