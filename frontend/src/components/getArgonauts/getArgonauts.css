@@ -33,3 +33,10 @@
   cursor: pointer;
   color: black;
 }
+
+@media screen and (max-width: 450px) {
+  .getArgonautsContainer__liste {
+    display: flex;
+    flex-direction: column;
+  }
+}
